@@ -1,0 +1,33 @@
+[
+    {
+      "Business_name": "NEXGEN",
+      "open_hours": "Mon - Sat - 9.00 - 18.00 ",
+      "cell_number": "+1(305)1234-5678-90",
+      "email": "nexgentransport@gmail.com",
+      "address": "Main Avenue, 987",
+      "about": [
+        "The Company",
+        "Institutional",
+        "Social & Events",
+        "Innovation",
+        "Environment",
+        "Technology"
+      ],
+      "Transport": [
+        "Industrialized",
+        "Chemicals",
+        "Packaged Liquids",
+        "Construction",
+        "Laminated Wood",
+        "And others"
+      ],
+      "Support": [
+        "Responsibility",
+        "Terms of Use",
+        "About Cookies",
+        "Privacy Policy",
+        "Accessibility",
+        "Information"
+      ]
+    }
+]
