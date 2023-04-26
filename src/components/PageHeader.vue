@@ -12,7 +12,7 @@ export default{
 
         <div class="top_header">
             <div class="container">
-                <div class="row pt-2">
+                <div class="row pt-3">
                     <div class="col">
                         <div class="info_bar d-flex justify-content-between">
                             <div class="left_bar">
@@ -62,6 +62,8 @@ export default{
             </div>                            
         </div>     
 
+                                <!-- /BOTTOM HEADER -->
+
     </header>
  
 </template>
@@ -70,7 +72,8 @@ export default{
 @use './scss/partials/variables.scss' as *;
 
 .top_header{
-    background-color: $secondary;
+    background-color: $bg-secondary;
+    color: $text-dark;
 }
 .bottom_header{
     background-image: url('/img/bg-9.jpg');
@@ -79,7 +82,7 @@ export default{
     height: 850px;
 
     .jumbotron{
-        background-color: rgba(0, 0, 0, 0.383);
+        background-color:$bg-dark;
         height: 100%;
     }
 }
