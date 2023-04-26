@@ -1,6 +1,21 @@
 <script>
+import infos from './data/nexgen_header.json';
 export default{
-    name: 'PageFooter'
+    name: 'PageFooter',
+    props:{
+        open_hours: String,
+        cell_number: String,
+        email: String,
+        address: String,
+        about: Array,
+        transport: Array,
+        support: Array
+    },
+    data(){
+        return{
+            infos: infos
+        }
+    }
 }
 
 </script>
@@ -11,50 +26,39 @@ export default{
             <div class="container">
                 <div class="row row-cols-5 py-5 justify-content-evenly">
                     <div class="col name">
-                        <h1 class="text-center">NEXGEN</h1>
-                        <p>A functional HTML Template for Corporate and Business</p>
-                        <ul>
+                        <a class="navbar-brand text-light logo_scss" href="#"><span class="text_primary logo_scss_span">NEX</span>GEN</a>
+                        <p class="mt-4">A functional HTML Template for Corporate and Business</p>
+                        <ul class="p-0 mt-4 d-flex gap-3 flex-column" >
                             <li>
-                                <h5>+1(305) 1234-56789</h5>
+                                <h6>{{ cell_number }}</h6>
                             </li>
                             <li>
-                                <h5>hello@example.com</h5>
+                                <h6>{{ email }}</h6>
                             </li>
                             <li>
-                                <h5>Main Avenue,987</h5>
+                                <h6>{{ address }}</h6>
                             </li>
                         </ul>
 
-                        <button class="btn btn-outline-primary"> GET IN TOUCH</button>
+                        <button class="btn mt-4 btn_border text-light text_size">GET IN TOUCH</button>
                     </div>
                     <div class="col bg-dark pt-4 pb-4">
-                        <h2 class=" ps-3 pb-5">Lorem</h2>
+                        <h2 class=" ps-3 pb-5">About</h2>
                         <ul class="d-flex flex-column gap-3">
-                            <li>  Lorem, ipsum.</li>
-                            <li>  Lorem, ipsum.</li>
-                            <li>  Lorem, ipsum.</li>
-                            <li>  Lorem, ipsum.</li>
-                            <li>  Lorem, ipsum.</li>
+                            <li v-for="item in about">{{ item }}</li>
+                          
                         </ul>
                     </div>
                     <div class="col bg-dark pt-4 pb-4">
-                        <h2 class=" ps-3 pb-5">Lorem</h2>
+                        <h2 class=" ps-3 pb-5">Transport</h2>
                         <ul class="d-flex flex-column gap-3">
-                            <li>  Lorem, ipsum.</li>
-                            <li>  Lorem, ipsum.</li>
-                            <li>  Lorem, ipsum.</li>
-                            <li>  Lorem, ipsum.</li>
-                            <li>  Lorem, ipsum.</li>
+                            <li v-for="item in transport">{{ item }}</li>
                         </ul>
                     </div>
                     <div class="col bg-dark pt-4 pb-4">
-                        <h2 class=" ps-3 pb-5">Lorem</h2>
+                        <h2 class=" ps-3 pb-5">Support</h2>
                         <ul class="d-flex flex-column gap-3">
-                            <li>  Lorem, ipsum.</li>
-                            <li>  Lorem, ipsum.</li>
-                            <li>  Lorem, ipsum.</li>
-                            <li>  Lorem, ipsum.</li>
-                            <li>  Lorem, ipsum.</li>
+                            <li v-for="item in support ">{{ item }}</li>
                         </ul>
                     </div>
 
@@ -91,5 +95,31 @@ footer{
     padding-left: 2rem;
     padding-right: 2rem;
 }
+.logo_scss{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .logo_scss_span{
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+        background-color: $primary-transparent;
+        padding: 3px;
+        padding-left: 35px;
+        padding-right: 5px;
+        margin-right: 5px;
+    }
+
+    .text_primary{
+        color: $primary;
+    }
+
+    .bg_primary{
+        background-color: $primary;
+    }
+    .btn_border{
+        border-color: $primary;
+    }
+   
 
 </style>

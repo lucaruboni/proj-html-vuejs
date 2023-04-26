@@ -13,7 +13,7 @@
         "Environment",
         "Technology"
       ],
-      "Transport": [
+      "transport": [
         "Industrialized",
         "Chemicals",
         "Packaged Liquids",
@@ -21,7 +21,7 @@
         "Laminated Wood",
         "And others"
       ],
-      "Support": [
+      "support": [
         "Responsibility",
         "Terms of Use",
         "About Cookies",
