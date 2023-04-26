@@ -53,7 +53,14 @@ export default{
 
                                 <!-- /TOP HEADER -->
 
+                                <!-- BOTTOM HEADER -->
 
+
+        <div class="bottom_header">
+            <div class="jumbotron">
+
+            </div>                            
+        </div>     
 
     </header>
  
@@ -64,6 +71,17 @@ export default{
 
 .top_header{
     background-color: $secondary;
+}
+.bottom_header{
+    background-image: url('/img/bg-9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+
+    .jumbotron{
+        background-color: rgba(0, 0, 0, 0.383);
+        height: 100%;
+    }
 }
 
 </style>
