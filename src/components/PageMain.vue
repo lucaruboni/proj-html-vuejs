@@ -41,7 +41,7 @@ export default{
 
     <section class=" position-relative">
 
-        <div class="line position-absolute top-50 "></div>
+        <div class="line position-absolute "></div>
 
         <div class="container">
             <div class="row">
@@ -123,9 +123,14 @@ export default{
 
 
     
-  .bg_dark{
-      background-color: $bg-primary;
-  }
+.line{
+    border-bottom: 8px solid $primary;
+    top: 55%;
+    left: 0;
+    width: 100%;
+    
+
+}
 
   .bg_grey{
       background-color: $bg-grey;
@@ -165,7 +170,9 @@ export default{
     }
     }
 
-
+    h2{
+        z-index: 100;
+    }
 
 
     
