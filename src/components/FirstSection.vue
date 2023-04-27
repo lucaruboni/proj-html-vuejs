@@ -35,7 +35,7 @@ export default{
               <div class="col-4 d-flex flex-column gap-2 mb-5">
                   <h3 class="mt-5 mb-4">Vehicle Types</h3>
                   <div class="vehicle d-flex">
-                      <div class="img_container">
+                      <div class="img_container me-3">
                           <img src="/img/truck-1.png" alt="">
                       </div>
                       <div class="text_container">
@@ -45,7 +45,7 @@ export default{
                   </div>
               
                   <div class="vehicle d-flex">
-                      <div class="img_container">
+                      <div class="img_container me-3">
                           <img src="/img/truck-1.png" alt="">
                       </div>
                       <div class="text_container">
@@ -55,7 +55,7 @@ export default{
                   </div>
               
                   <div class="vehicle d-flex">
-                      <div class="img_container">
+                      <div class="img_container me-3">
                           <img src="/img/truck-1.png" alt="">
                       </div>
                       <div class="text_container">
