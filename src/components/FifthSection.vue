@@ -20,7 +20,7 @@ export default{
                    
             </div>
             <div class="row row-cols-4 justify-content-between pb-5">
-                <div class="col bg_grey p-4 rounded-4">
+                <div class="col bg_grey p-4 rounded-3">
                     <div class="icon_row p-3">
                         <img src="/img/logo-1.png" alt="">
 
@@ -36,7 +36,7 @@ export default{
                         </p>
                     </div>
                 </div>
-                <div class="col bg_grey p-4 rounded-4">
+                <div class="col bg_grey p-4 rounded-3">
                     <div class="icon_row p-3">
                         <img src="/img/logo-2.png" alt="">
 
@@ -52,7 +52,7 @@ export default{
                         </p>
                     </div>
                 </div>
-                <div class="col bg_grey p-4 rounded-4">
+                <div class="col bg_grey p-4 rounded-3">
                     <div class="icon_row p-3">
                         <img src="/img/logo-3.png" alt="">
 
