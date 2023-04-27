@@ -106,6 +106,7 @@ export default{
 
 footer{
     color: white;
+    
 }
 .top_footer{
    

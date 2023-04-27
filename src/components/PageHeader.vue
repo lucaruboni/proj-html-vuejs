@@ -102,6 +102,10 @@ export default{
 <style lang="scss" scoped>
 @use './scss/partials/variables.scss' as *;
 
+
+
+
+
 .top_header{
     background-color: $bg-secondary;
     color: $text-dark;

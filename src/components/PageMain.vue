@@ -2,18 +2,23 @@
 import FirstSection from './FirstSection.vue'
 import SecondSection from './SecondSection.vue'
 import ThirdSection from './ThirdSection.vue'
+import FourthSection from './FourthSection.vue'
+import FifthSection from './FifthSection.vue'
 export default{
     name: 'PageMain',
     components: {
         FirstSection,
         SecondSection,
-        ThirdSection
+        ThirdSection,
+        FourthSection,
+        FifthSection
     }
 }
 
 </script>
 
 <template>
+    <main>
 
                                                         <!-- FIRST SECTION -->
 
@@ -50,21 +55,30 @@ export default{
                                                         <!-- /THIRD SECTION -->
 
                                                         <!-- FOURTH SECTION -->
-    <section class="bg_section">
-
+    <section class="bg_section pb-5">
+        <FourthSection></FourthSection>
     </section>
 
 
 
                                                         <!-- /FOURTH SECTION -->
 
+                                                        <!-- FIFTH SECTION -->
+    <section class="bg_dark">
+        <FifthSection></FifthSection>
+    </section>
 
+                                                        <!-- /FIFTH SECTION -->
+
+</main>
+   
 
 </template>
 
 <style lang="scss" scoped>
 @use './scss/partials/variables.scss' as *;
   
+
   .bg_dark{
       background-color: $bg-primary;
   }
@@ -74,7 +88,6 @@ export default{
 
   .bg_section{
     background-image: url(/img/bg-10.jpg);
-    height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 20%;
@@ -82,7 +95,6 @@ export default{
 
 
 
-    
 
 
 

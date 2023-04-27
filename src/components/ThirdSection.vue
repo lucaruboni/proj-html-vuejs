@@ -10,18 +10,18 @@ export default{
 
     <div class="container">
         <div class="row pb-5">
-        
-            
-        
+
+
+
             <div class="col-12 text-center pt-5 pb-5">
                 <h6 class="text_primary">HOW IT WORKS IN PRACTICE</h6>
                         <h1 class="my-3"><span class="text_primary logo_scss">Logistical</span> Procedure</h1>
                         <p id="presentation_p">We work with innovative methodologies to ensure that entire delivery process is done from start to finish  as planned.</p>
-                        
+
             </div>
             <div class="col-2 me-4 d-flex flex-column gap-4 text-center">
                 <div class="bg_primary my_border align-self-center d-flex justify-content-center">
-                    <h3 class=" align-self-center text-primary">1</h3>
+                    <h3 class=" align-self-center text_primary">1</h3>
                 </div>
                 <h3>
                     Collection of information
@@ -32,7 +32,7 @@ export default{
             </div>
             <div class="col-2 me-4 d-flex flex-column gap-4 text-center">
                 <div class="bg_primary my_border align-self-center d-flex justify-content-center">
-                    <h3 class=" align-self-center text-primary">2</h3>
+                    <h3 class=" align-self-center text_primary">2</h3>
                 </div>
                 <h3>
                     Service Invoice Sending
@@ -43,7 +43,7 @@ export default{
             </div>
             <div class="col-2 me-4 d-flex flex-column gap-4 text-center">
                 <div class="bg_primary my_border align-self-center d-flex justify-content-center">
-                    <h3 class=" align-self-center text-primary">3</h3>
+                    <h3 class=" align-self-center text_primary">3</h3>
                 </div>
                 <h3>
                     Withdrawal of Cargo
@@ -54,7 +54,7 @@ export default{
             </div>
             <div class="col-2 me-4 d-flex flex-column gap-4 text-center">
                 <div class="bg_primary my_border align-self-center d-flex justify-content-center">
-                    <h3 class=" align-self-center text-primary">4</h3>
+                    <h3 class=" align-self-center text_primary">4</h3>
                 </div>
                 <h3>
                     Transport Customer Order
@@ -65,7 +65,7 @@ export default{
             </div>
             <div class="col-2 me-4 d-flex flex-column gap-4 text-center">
                 <div class="bg_primary my_border align-self-center d-flex justify-content-center">
-                    <h3 class=" align-self-center text-primary">5</h3>
+                    <h3 class=" align-self-center text_primary">5</h3>
                 </div>
                 <h3>
                     Succesful Delivery
@@ -82,7 +82,7 @@ export default{
 @use './scss/partials/variables.scss' as *;
 .line{
     border-bottom: 5px solid $primary-transparent;
-    top: 48%;
+    top: 47.5%;
     left: 0;
     width: 100%;
     z-index: 1;

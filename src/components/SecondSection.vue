@@ -10,7 +10,7 @@ export default{
                
                     <div class="col-8 text-light">
                             <h6 class="text_primary">ROAD TRANSPORT</h6>
-                            <h1>Main Services</h1>
+                            <h1>Main <span class="bg_primary_transparent_square">Services</span></h1>
                             <p id="presentation_p">With all of this expertise and capability comes an unrivalled commitment to customer service. We will work hard to understand your needs in order to develop a productive, long-term partnership.</p>
                             
                                 
@@ -113,6 +113,12 @@ export default{
       border-radius: 50%;
       padding: 1rem;
   }
+  .bg_primary_transparent_square{
+      background-color: $primary-transparent;
+      border-radius: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
   .btn_border{
       border-color: $primary;
       border-radius: 3px;
@@ -125,6 +131,10 @@ export default{
   .col-8{
       margin-top: 100px;
       margin-bottom: 40px;
+      h1{
+        font-size: 3rem;
+        font-weight: 700;
+      }
   }
 
   .col-4{
