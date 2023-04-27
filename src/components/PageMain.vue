@@ -1,126 +1,156 @@
 <script>
+import FirstSection from './FirstSection.vue'
 export default{
-    name: 'PageMain'
+    name: 'PageMain',
+    components: {
+        FirstSection
+    }
 }
 
 </script>
 
 <template>
-  <div class="container">
-    <div class="row">
-        <div class="col-8 d-flex flex-column">
-            <h6 class="text_primary mt-5">WHO WE ARE</h6>
-            <h2 class=" mt-3">
-                <span class=" me-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-gem" viewBox="0 0 16 16">
-                      <path d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6l3-4zm11.386 3.785-1.806-2.41-.776 2.413 2.582-.003zm-3.633.004.961-2.989H4.186l.963 2.995 5.704-.006zM5.47 5.495 8 13.366l2.532-7.876-5.062.005zm-1.371-.999-.78-2.422-1.818 2.425 2.598-.003zM1.499 5.5l5.113 6.817-2.192-6.82L1.5 5.5zm7.889 6.817 5.123-6.83-2.928.002-2.195 6.828z"/>
-                    </svg>
-                    Excellence 
-                </span>
-                in Transport
-            </h2>
-            <p class="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, doloremque voluptas! Iusto soluta voluptatibus nulla enim et! Aliquam, blanditiis architecto?</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel possimus voluptatibus cum at veritatis iste.</p>
-            <p class="p_left_border pt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit veniam minus dolore magnam expedita animi.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, asperiores?</p>
-            <ul>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem, ipsum dolor.</li>
-                <li>Lorem ipsum dolor sit.</li>
-                <li>Lorem, ipsum.</li>
-                <li>lorem</li>
-            </ul>
+
+                                                        <!-- FIRST SECTION -->
+
+    <section>
+        <FirstSection></FirstSection>
+    </section>
+
+                                                        <!-- /FIRST SECTION -->
+
+
+
+                                                        <!-- SECOND SECTION -->
+
+                                                        
+    <section class="bg_dark">
+
+        <div class="container">
+            <div class="row">
+               
+                    <div class="col-8 text-light ">
+                            <h6 class="text_primary">ROAD TRANSPORT</h6>
+                            <h1>Main Services</h1>
+                            <p id="presentation_p">With all of this expertise and capability comes an unrivalled commitment to customer service. We will work hard to understand your needs in order to develop a productive, long-term partnership.</p>
+                            
+                                
+                                
+                            
+                    </div>      
+                    <div class="col-4 d-flex">
+                        <button class="btn btn_border align-self-center text-light">SEE ALL</button>
+                    </div>
+            </div>
+            <div class="row row-cols-4 justify-content-between">
+                <div class="col bg_grey ">
+                    <div class="icon_row d-flex justify-content-between">
+                        <svg  xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-truck bg_primary_transparent" viewBox="0 0 16 16">
+                          <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                        </svg>
+
+                        <svg  xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-right-short text_primary" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                        </svg>
+
+                    </div>
+
+                    <div class="text-area text-light">
+                        <h3>
+                            Technology
+                        </h3>
+                        <p>
+                            We are continually focused on developing technology solutions adapted to our client's needs.
+                        </p>
+                    </div>
+                </div>
+                <div class="col bg_grey ">
+                    <div class="icon_row d-flex justify-content-between">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-thermometer-snow bg_primary_transparent" viewBox="0 0 16 16">
+                          <path d="M5 12.5a1.5 1.5 0 1 1-2-1.415V9.5a.5.5 0 0 1 1 0v1.585A1.5 1.5 0 0 1 5 12.5z"/>
+                          <path d="M1 2.5a2.5 2.5 0 0 1 5 0v7.55a3.5 3.5 0 1 1-5 0V2.5zM3.5 1A1.5 1.5 0 0 0 2 2.5v7.987l-.167.15a2.5 2.5 0 1 0 3.333 0L5 10.486V2.5A1.5 1.5 0 0 0 3.5 1zm5 1a.5.5 0 0 1 .5.5v1.293l.646-.647a.5.5 0 0 1 .708.708L9 5.207v1.927l1.669-.963.495-1.85a.5.5 0 1 1 .966.26l-.237.882 1.12-.646a.5.5 0 0 1 .5.866l-1.12.646.884.237a.5.5 0 1 1-.26.966l-1.848-.495L9.5 8l1.669.963 1.849-.495a.5.5 0 1 1 .258.966l-.883.237 1.12.646a.5.5 0 0 1-.5.866l-1.12-.646.237.883a.5.5 0 1 1-.966.258L10.67 9.83 9 8.866v1.927l1.354 1.353a.5.5 0 0 1-.708.708L9 12.207V13.5a.5.5 0 0 1-1 0v-11a.5.5 0 0 1 .5-.5z"/>
+                        </svg>
+
+                        <svg  xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-right-short text_primary" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                        </svg>
+
+                    </div>
+
+                    <div class="text-area text-light">
+                        <h3>
+                            Reefer Cargo
+                        </h3>
+                        <p>
+                            Regular and frequent monitoring from the receipt of the loaded container to final destination.
+                        </p>
+                    </div>
+                </div>
+                <div class="col bg_grey ">
+                    <div class="icon_row d-flex justify-content-between">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-boxes bg_primary_transparent" viewBox="0 0 16 16">
+                          <path d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434L7.752.066ZM4.25 7.504 1.508 9.071l2.742 1.567 2.742-1.567L4.25 7.504ZM7.5 9.933l-2.75 1.571v3.134l2.75-1.571V9.933Zm1 3.134 2.75 1.571v-3.134L8.5 9.933v3.134Zm.508-3.996 2.742 1.567 2.742-1.567-2.742-1.567-2.742 1.567Zm2.242-2.433V3.504L8.5 5.076V8.21l2.75-1.572ZM7.5 8.21V5.076L4.75 3.504v3.134L7.5 8.21ZM5.258 2.643 8 4.21l2.742-1.567L8 1.076 5.258 2.643ZM15 9.933l-2.75 1.571v3.134L15 13.067V9.933ZM3.75 14.638v-3.134L1 9.933v3.134l2.75 1.571Z"/>
+                        </svg>
+                        <svg  xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-right-short text_primary" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                        </svg>
+
+                    </div>
+
+                    <div class="text-area text-light">
+                        <h3>
+                            Dry Cargo
+                        </h3>
+                        <p>
+                            We work with most types of dry cargo to the most dangerous requiring care.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="col-4 d-flex flex-column gap-2 mb-5">
-            <h3 class="mt-5 mb-4">Vehicle Types</h3>
-            <div class="vehicle d-flex">
-                <div class="img_container">
-                    <img src="/img/truck-1.png" alt="">
-                </div>
-                <div class="text_container">
-                    <h2><strong>Light</strong></h2>
-                    <p>Max Weight  1200kg</p>
-                </div>
-            </div>
+    </section>
 
-            <div class="vehicle d-flex">
-                <div class="img_container">
-                    <img src="/img/truck-1.png" alt="">
-                </div>
-                <div class="text_container">
-                    <h2><strong>Medium</strong></h2>
-                    <p>Max Weight  6000kg</p>
-                </div>
-            </div>
 
-            <div class="vehicle d-flex">
-                <div class="img_container">
-                    <img src="/img/truck-1.png" alt="">
-                </div>
-                <div class="text_container">
-                    <h2><strong>Heavy</strong></h2>
-                    <p>Max Weight  24000kg</p>
-                </div>
-            </div>
-        
 
-            <div class="certifications">
-                <h3 class="mb-4 mt-2">Certifications</h3>
-                <img src="/img/certificate.png" alt="">
-                <img src="/img/certificate.png" alt="">
-            </div>
-        </div>
 
-    </div>
-  </div>
+
+                                                        <!-- /SECOND SECTION -->
+
+
+
 </template>
 
 <style lang="scss" scoped>
 @use './scss/partials/variables.scss' as *;
-
-.col-8{
-    span{
-        background-color: $primary;
-        color: $bg-secondary;
-        font-size: 3rem;
-        font-weight: 700;
-        padding-left: 10px;
-        padding-bottom: 4px;
-    }
-    h2{
-        font-size: 3rem;
-        font-weight: 700;
-    }
-
-    h6{
-        font-weight: 700;
-    }
-}
-.vehicle{
-    img{
-        height: 70px;
-        margin: 0.4rem;
-    }
-}
-
-.certifications img{
-    height: 100px;
-}
-
-.text_primary{
-        color: $primary;
- }
-
-.p_left_border{
-    border-left: 5px solid $primary;
-    height: 80px;
-    text-align: center;
-    font-style: italic;
-}
-.img_container{
-    background-color: $secondary;
-    border-radius: 10px;
-}
   
+    .bg_dark{
+        background-color: $bg-primary;
+    }
+
+    .bg_grey{
+        background-color: $bg-grey;
+    }
+
+    .text_primary{
+        color: $primary;
+    }
+
+    .bg_primary{
+        background-color: $primary;
+    }
+
+    .bg_primary_transparent{
+        background-color: $primary-transparent;
+        border-radius: 50%;
+        padding: 1rem;
+    }
+    .btn_border{
+        border-color: $primary;
+        border-radius: 3px;
+    }
+
+    .icon_row{
+        color: $primary;
+    }
 </style>
